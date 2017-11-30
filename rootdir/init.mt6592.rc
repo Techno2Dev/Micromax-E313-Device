@@ -110,7 +110,7 @@ on init
     chmod 0660 /dev/BU6424AF
     chmod 0660 /dev/IMX135AF
     chmod 0660 /dev/IMX179AF
-	
+#shaohui add for IMX314
     chown system camera /dev/camera-sysram
     chown system camera /dev/camera-isp
     chown system camera /dev/camera-pipemgr
@@ -126,6 +126,7 @@ on init
     chown system camera /dev/CAM_CAL_DRV
     chown system camera /dev/BU6424AF
     chown system camera /dev/IMX135AF
+#shaohui add for IMX314
     chown system camera /dev/IMX179AF
 
     chown system system /dev/RT_Monitor
